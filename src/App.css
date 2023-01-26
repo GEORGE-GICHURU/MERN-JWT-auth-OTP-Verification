@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 
 @tailwind base;
@@ -6,7 +6,7 @@
 @tailwind utilities;
 
 * > *{
-    font-family: "Montserrat";
+    font-family: "Poppins";
 }
 
 body{

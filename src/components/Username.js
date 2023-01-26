@@ -11,7 +11,7 @@ const Username = () => {
 
   const formik = useFormik({
     initialValues : {
-      username : "sajeed"
+      username : ""
     },
 
     validate : usernameValidate,
@@ -22,7 +22,7 @@ const Username = () => {
     }
 
   })
-
+  
 
   return (
     <div className='conatiner mx-auto'>
@@ -53,7 +53,7 @@ const Username = () => {
 
             <div className='text-center py-4'>
               <span className='text-gray-500'>Not a Member? 
-                <Link className='text-red-500' to="/register"> Register Now</Link>
+                <Link className='text-red-500' to="/register"> Sign Up</Link>
               </span>
             </div>
           </form>
