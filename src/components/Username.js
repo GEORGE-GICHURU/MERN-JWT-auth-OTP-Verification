@@ -11,7 +11,7 @@ const Username = () => {
 
   const formik = useFormik({
     initialValues : {
-      username : ""
+      username : "example123"
     },
 
     validate : usernameValidate,
@@ -31,7 +31,7 @@ const Username = () => {
 
 
       <div className='flex justify-center items-center h-screen'>
-        <div className={styles.glass}>
+        <div className={styles.glass} style={{ height: "85%", width: "40%"}}>
 
 
           <div className='title flex flex-col items-center'>

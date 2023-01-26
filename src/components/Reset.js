@@ -46,7 +46,7 @@ const Password = () => {
 
             <div className='textbox flex flex-col items-center gap-6'>
               <input {...formik.getFieldProps("password")} className={styles.textbox} type="text" placeholder='New Password' />
-              <input {...formik.getFieldProps("confirm_pwd")} className={styles.textbox} type="text" placeholder='Retype Password' />
+              <input {...formik.getFieldProps("confirm_pwd")} className={styles.textbox} type="text" placeholder='Repeat Password' />
 
               <button className={styles.btn} type='submit'>Reset Password</button>
             </div>

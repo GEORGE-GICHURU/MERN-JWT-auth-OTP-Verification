@@ -21,7 +21,7 @@ const Recovery = () => {
 
 
           <div className='title flex flex-col items-center'>
-            <h4 className='text-5xl font-bold'>Recovery Page!</h4>
+            <h4 className='text-5xl font-bold'>Recover Your Password!</h4>
             <span className='py-4 text-xl w-2/3 text-center text-gray-500'>
               Enter OTP to recover password.
             </span>
@@ -48,8 +48,8 @@ const Recovery = () => {
             </div>
 
             <div className='text-center py-4'>
-              <span className='text-gray-500'> Can't get OTP? 
-                <button className='text-red-500'> Resend </button>
+              <span className='text-gray-500'>Can't get OTP? 
+                <button className='text-red-500'> Resend</button>
               </span>
             </div>
           </form>

@@ -17,9 +17,9 @@ export default function Register() {
 
   const formik = useFormik({
     initialValues : {
-      email: '',
-      username: '',
-      password : ''
+      email: 'gichurugeorge092@gmail.com',
+      username: 'example123',
+      password : 'admin@123'
     },
     validate : registerValidation,
     validateOnBlur: false,
@@ -48,8 +48,8 @@ export default function Register() {
 
       <Toaster position='top-center' reverseOrder={false}></Toaster>
 
-      {/* <div className='flex justify-center items-center h-screen'>
-        <div className={styles.glass} style={{ width: "45%", paddingTop: '1em'}}> */}
+      <div className='flex justify-center items-center h-screen'>
+        <div className={styles.glass} style={{ width: "45%", paddingTop: '1em' , height: "85%"}}>
 
           <div className="title flex flex-col items-center">
             <h4 className='text-5xl font-bold'>Sign Up</h4>
@@ -81,7 +81,7 @@ export default function Register() {
           </form>
 
         </div>
-    //   </div>
-    // </div>
+      </div>
+    </div>
   )
 }
